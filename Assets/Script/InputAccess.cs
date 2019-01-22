@@ -4,7 +4,6 @@ using UnityEngine.Experimental.Input;
 using UnityEngine.UI;
 public class InputAccess : MonoBehaviour, IInputActions
 {
-
     public InputConfig input;
     public GameObject ConfigWindow;
     public List<InputKey> ipks;

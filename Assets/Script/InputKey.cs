@@ -1,12 +1,16 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Experimental.Input;
+using UnityEngine.Experimental.Input.Controls;
 using UnityEngine.UI;
-
+using System;
+using UnityEditor;
 public class InputKey : MonoBehaviour
-{ 
+{
     public Dropdown tmd;
     public string DefaultCode;//デフォルトのコード ドロップダウンから調査
-    private void Start()
+    private void Awake()
     {
         for (int i = 0; i < InputAccess.KeyCodes.Count; i++)
         {
