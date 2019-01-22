@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Experimental.Input;
 
-
+ 
 [Serializable]
 public class InputConfig : InputActionAssetReference
 {
