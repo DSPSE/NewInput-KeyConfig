@@ -12,10 +12,6 @@ AbstructDevices
 →Keyboard,Mouse
 を登録
 
-<<<<<<< HEAD
 
 ## Version
-=======
-・Version
->>>>>>> parent of 1d2b5a6... Update README.md
 Unity 2018.3.2f1
